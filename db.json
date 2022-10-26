@@ -1,0 +1,19 @@
+{
+  "names": [
+    {
+      "firstname": "mohammed",
+      "lastname": "habita",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 23,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "json"
+  }
+}
