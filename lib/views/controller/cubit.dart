@@ -3,7 +3,7 @@ import 'package:bloc/bloc.dart';
 import 'package:cohms/views/controller/states.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../data/data_source/data_source.dart';
+import '../../data/data_source/remote/api/data_source.dart';
 import '../../data/repository/data_repository.dart';
 import '../../domain/entities/contract_entities.dart';
 import '../../domain/entities/departments_entities.dart';
@@ -114,6 +114,7 @@ class DevicesCubit extends Cubit<DeviceStates>{
     return contract;
   }
   Future<List<Store>> getStoreData()async{
+    emit(DeviceUpdateState());
     store=await StorageUseCase(baseDeviceRepository()).call();
     emit(DeviceGetDataState());
     return store;

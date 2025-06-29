@@ -1,5 +1,6 @@
 
 import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:cohms/views/02.home/home_layout.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 
@@ -14,7 +15,7 @@ class SplashScreen extends StatelessWidget {
  Widget build(BuildContext context){
     return AnimatedSplashScreen(
       splash:  Image.asset(AppImages.LOGOWhite),
-      nextScreen: LoginScreen(),
+      nextScreen: HomePage(),
       duration:3000,
       backgroundColor: AppColors.PRIMARYCOLOR,
       splashIconSize: 100,

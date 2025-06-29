@@ -12,7 +12,7 @@ import '../../domain/entities/store_entities.dart';
 import '../../domain/entities/suppliers_entities.dart';
 import '../../domain/entities/user_entities.dart';
 import '../../domain/repository/device_repository.dart';
-import '../data_source/data_source.dart';
+import '../data_source/remote/api/data_source.dart';
 
 class DeviceRepository extends BaseDeviceRepository{
   final BaseDataSource baseDataSource;

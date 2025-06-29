@@ -3,22 +3,22 @@ import 'package:cohms/data/models/history_model.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 
-import '../../config/data_constants.dart';
-import '../../domain/entities/contract_entities.dart';
-import '../../domain/entities/departments_entities.dart';
-import '../../domain/entities/history_entities.dart';
-import '../../domain/entities/stock_entities.dart';
-import '../../domain/entities/store_entities.dart';
-import '../../domain/entities/suppliers_entities.dart';
-import '../../domain/entities/user_entities.dart';
-import '../models/department_model.dart';
-import '../models/device_model.dart';
-import '../models/maintenance_model.dart';
-import '../models/stock_model.dart';
-import '../models/suppliers_model.dart';
-import '../models/user_model.dart';
-import '../models/contract_model.dart';
-import '../models/storage_model.dart';
+import '../../../../config/data_constants.dart';
+import '../../../../domain/entities/contract_entities.dart';
+import '../../../../domain/entities/departments_entities.dart';
+import '../../../../domain/entities/history_entities.dart';
+import '../../../../domain/entities/stock_entities.dart';
+import '../../../../domain/entities/store_entities.dart';
+import '../../../../domain/entities/suppliers_entities.dart';
+import '../../../../domain/entities/user_entities.dart';
+import '../../../models/department_model.dart';
+import '../../../models/device_model.dart';
+import '../../../models/maintenance_model.dart';
+import '../../../models/stock_model.dart';
+import '../../../models/suppliers_model.dart';
+import '../../../models/user_model.dart';
+import '../../../models/contract_model.dart';
+import '../../../models/storage_model.dart';
 
 
 

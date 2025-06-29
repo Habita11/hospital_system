@@ -4,7 +4,7 @@ import 'package:cohms/views/pages/store_page.dart';
 import 'package:flutter/cupertino.dart';
 
 import '../../config/data_constants.dart';
-import '../../data/data_source/data_source.dart';
+import '../../data/data_source/remote/api/data_source.dart';
 import '../../data/repository/data_repository.dart';
 import '../../domain/entities/device_entities.dart';
 import '../../domain/repository/device_repository.dart';

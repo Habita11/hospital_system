@@ -10,7 +10,7 @@ import 'package:desktop_window/desktop_window.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'data/data_source/data_source.dart';
+import 'data/data_source/remote/api/data_source.dart';
 import 'data/repository/data_repository.dart';
 import 'domain/repository/device_repository.dart';
 import 'domain/usecases/ger_device_data_usecase.dart';
